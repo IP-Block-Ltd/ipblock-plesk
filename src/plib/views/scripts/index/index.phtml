@@ -1,0 +1,11 @@
+<?php
+/* IP-Block.com — Plesk settings view. Renders the pm_Form_Simple built by the
+   controller. Plesk supplies the surrounding page chrome automatically. */
+?>
+<p>
+    Screen every visitor to all hosted domains against the ip-block.com API before
+    your customers' PHP applications run. Blocking is enforced by a global
+    <code>auto_prepend_file</code> guard. The API call has a 1&nbsp;second timeout
+    and fails open by default, so an API outage never takes sites offline.
+</p>
+<?php echo $this->form; ?>

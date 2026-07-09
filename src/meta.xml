@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Plesk extension manifest for IP-Block Protection.
+  Packaged by zipping the CONTENTS of this src/ directory (meta.xml at the root
+  of the archive, alongside plib/ and htdocs/).
+-->
+<module>
+    <id>ipblock</id>
+    <name>IP-Block Protection</name>
+    <release>1.0.0-1</release>
+    <version>18.0.76</version>
+    <vendor>ip-block.com</vendor>
+    <url>https://www.ip-block.com</url>
+    <plesk_min_version>18.0.0</plesk_min_version>
+    <description>Server-wide visitor screening for all hosted domains, powered by ip-block.com. Adds a Plesk settings page and enforces blocking via a PHP auto_prepend guard.</description>
+</module>
